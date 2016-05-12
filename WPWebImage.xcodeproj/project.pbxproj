@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		768BB92C1CBC9BBD00D6650F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BB92B1CBC9BBD00D6650F /* AppDelegate.swift */; };
-		768BB92E1CBC9BBD00D6650F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BB92D1CBC9BBD00D6650F /* ViewController.swift */; };
-		768BB9311CBC9BBD00D6650F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768BB92F1CBC9BBD00D6650F /* Main.storyboard */; };
 		768BB9331CBC9BBD00D6650F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768BB9321CBC9BBD00D6650F /* Assets.xcassets */; };
-		768BB9361CBC9BBD00D6650F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768BB9341CBC9BBD00D6650F /* LaunchScreen.storyboard */; };
 		768BB9411CBC9BBD00D6650F /* WPWebImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BB9401CBC9BBD00D6650F /* WPWebImageTests.swift */; };
 		768BB94C1CBC9BBD00D6650F /* WPWebImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BB94B1CBC9BBD00D6650F /* WPWebImageUITests.swift */; };
 		768BB95E1CBC9C1100D6650F /* WPWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BB95C1CBC9C1100D6650F /* WPWebImage.swift */; };
@@ -36,11 +32,7 @@
 
 /* Begin PBXFileReference section */
 		768BB9281CBC9BBD00D6650F /* WPWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		768BB92B1CBC9BBD00D6650F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		768BB92D1CBC9BBD00D6650F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		768BB9301CBC9BBD00D6650F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		768BB9321CBC9BBD00D6650F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		768BB9351CBC9BBD00D6650F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		768BB9371CBC9BBD00D6650F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		768BB93C1CBC9BBD00D6650F /* WPWebImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPWebImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768BB9401CBC9BBD00D6650F /* WPWebImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPWebImageTests.swift; sourceTree = "<group>"; };
@@ -100,11 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				768BB9591CBC9C1100D6650F /* Lib */,
-				768BB92B1CBC9BBD00D6650F /* AppDelegate.swift */,
-				768BB92D1CBC9BBD00D6650F /* ViewController.swift */,
-				768BB92F1CBC9BBD00D6650F /* Main.storyboard */,
 				768BB9321CBC9BBD00D6650F /* Assets.xcassets */,
-				768BB9341CBC9BBD00D6650F /* LaunchScreen.storyboard */,
 				768BB9371CBC9BBD00D6650F /* Info.plist */,
 			);
 			path = WPWebImage;
@@ -248,9 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768BB9361CBC9BBD00D6650F /* LaunchScreen.storyboard in Resources */,
 				768BB9331CBC9BBD00D6650F /* Assets.xcassets in Resources */,
-				768BB9311CBC9BBD00D6650F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768BB92E1CBC9BBD00D6650F /* ViewController.swift in Sources */,
-				768BB92C1CBC9BBD00D6650F /* AppDelegate.swift in Sources */,
 				768BB95E1CBC9C1100D6650F /* WPWebImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,25 +295,6 @@
 			targetProxy = 768BB9481CBC9BBD00D6650F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		768BB92F1CBC9BBD00D6650F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				768BB9301CBC9BBD00D6650F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		768BB9341CBC9BBD00D6650F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				768BB9351CBC9BBD00D6650F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		768BB94E1CBC9BBD00D6650F /* Debug */ = {
